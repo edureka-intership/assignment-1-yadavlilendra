@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Page</title>
+    <link rel="stylesheet" href="./Filter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="logobar">
+        <div class="circle">
+            <span>e!</span>
+        </div>
+        <div class="button-container">
+            <button>Login</button>
+            <button>Create An Account</button>
+        </div>
+    </div>
+    <div class="heading">
+        <H1>Breakfast Places in Gurgaon</H1>
+    </div>
+    <div class="filterOption">
+        <div class="filter">Filters</div>
+        <!-- for dropdown select tag and option tag -->
+
+        <div class="select-location">Select Location</div>
+        <select class="select-option" name="location" id="location" placeholder="location">
+            <option selected>SELECT LOCATION</option>
+            <option value="cybercity">CYBERY CITY</option>
+            <option value="golf course road">GOLF COURSE ROAD</option>
+            <option value="sector-29">SECTOR-29</option>
+        </select>
+        <!-- cuisine checkbox -->
+
+        <div class="cuisine">Cuisine</div>
+        <div class="label">
+            <label for="North Indian">
+                <input type="checkbox" name="North Indian" id="North Indian" />North Indian
+        </div>
+        </label>
+
+        <div class="label">
+            <label for="South Indian">
+                <input type="checkbox" name="South Indian" id="South Indian" />South Indian
+        </div>
+        </label>
+        <div class="label">
+            <label for="chines">
+                <input type="checkbox" name="Chines" id="Chines" />Chines
+        </div>
+        </label>
+
+        <div class="label">
+            <label for="Fast Food">
+                <input type="checkbox" name="Fast Food" id="Fastfood" />Fast Food
+            </label>
+
+            <div class="label">
+                <label for="Street Food">
+                    <input type="checkbox" name="Street Food" id="Street Food" />Street Food
+                </label>
+
+            </div>
+        </div>
+
+        <!-- Price selection -->
+        <div class="cost">Cost For Two</div>
+        <div class="label">
+            <label for="Less than-500">
+                <input type="radio" name="text" id="Less than-500" />Less than-500
+        </div>
+        </label>
+        <div class="label">
+            <label for="500 to 1000">
+                <input type="radio" name="text" id="500-1000" />500 to 1000
+        </div>
+        </label>
+
+        <div class="label">
+            <label for="1000 to 1500">
+                <input type="radio" name="text" id="1000 to 1500" />1000 to 1500
+        </div>
+        </label>
+        <div class="label">
+            <label for="1500 to 2000">
+                <input type="radio" name="text" id="1500 to 2000" />1500 to 2000
+        </div>
+        </label>
+        <div class="label">
+            <label for="2000+">
+                <input type="radio" name="text" id="2000+" />2000+
+        </div>
+        </label>
+
+        <!-- short price high to low with radio button -->
+        <div class="short">Shorts</div>
+        <div class="label">
+            <label for="low">
+                <input type="radio" name="low" id="low"> Price low to high
+            </label>
+            <div class="label">
+                <label for="high">
+                    <input type="radio" name="high" id="high"> Price high to low
+                </label>
+            </div>
+        </div>
+        <!--  food place  details -->
+        <div class="searchresults">
+            <div class="box">
+                <div>
+                    <div class="picture">
+                        <img src="../first assignment/shutterstock_1154073754.png" alt="food_1" height="78px">
+
+                    </div>
+                    <div class="restaurantdetails">
+                        <div class="restaurantname">Manhattan Bar & Brewery</div>
+                        <div class="reslocation">GURGAON</div>
+                        <div class="resaddress">Golf Course Road Sector-43</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="price">
+                    <p>CUISINE: Bakery</p>
+                    <P> COST FOR TWO : Rs.700 </P>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="searchresults">
+            <div class="box">
+                <div>
+                    <div class="picture">
+                        <img src="../first assignment/shutterstock_1154073754.png" alt="food_1" height="78px">
+                    </div>
+                    <div class="restaurantdetails">
+                        <div class="restaurantname">Pind Baluchi </div>
+                        <div class="reslocation">GURGAON</div>
+                        <div class="resaddress">Sohna Road Sector-49</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="price">
+                    <p>CUISINE: Bakery</p>
+                    <P> COST FOR TWO : Rs.700 </P>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&laquo;</a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
